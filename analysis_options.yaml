@@ -1,0 +1,12 @@
+# Không phụ thuộc gói lint ngoài để `flutter pub get` gọn nhẹ.
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+  language:
+    strict-casts: false
+linter:
+  rules:
+    - prefer_const_constructors
+    - avoid_print
